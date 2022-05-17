@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
 }
 
 a {
@@ -14,3 +18,48 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.triangle {
+  opacity: 0.9;
+  transition: all 0.24s ease-in-out;
+  cursor: pointer;
+  /* transform-origin: 400px 400px; */
+}
+
+.triangle:hover {
+  transform: rotate(90deg);
+  opacity: 0.8;
+}
+
+.triangle .ghost-1 {
+  transition: all 0.24s ease-in-out;
+}
+
+.triangle:hover .ghost-1 {
+  transform: translateX(-10%);
+  opacity: 0.3;
+}
+
+.triangle .ghost-2 {
+  transition: all 0.24s ease-in-out;
+}
+
+.triangle:hover .ghost-2 {
+  transform: translateX(20%);
+  opacity: 0.3;
+}
+
+.triangle .stop-color-1 {
+  transition: all 0.24s ease-in-out;
+}
+.triangle .stop-color-2 {
+  transition: all 0.24s ease-in-out;
+}
+
+.triangle:hover .stop-color-1 {
+  stop-color: hsl(46, 61%, 48%);
+}
+.triangle:hover .stop-color-2 {
+  stop-color: hsl(206, 70%, 58%);
+}
+
