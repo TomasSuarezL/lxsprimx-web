@@ -20,7 +20,7 @@ a {
 }
 
 .triangle {
-  opacity: 0.9;
+  opacity: 0.95;
   transition: all 0.24s ease-in-out;
   cursor: pointer;
   /* transform-origin: 400px 400px; */
@@ -28,7 +28,7 @@ a {
 
 .triangle:hover {
   transform: rotate(90deg);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .triangle .ghost-1 {
@@ -36,8 +36,7 @@ a {
 }
 
 .triangle:hover .ghost-1 {
-  transform: translateX(-10%);
-  opacity: 0.3;
+  transform: translateX(-15%) translateY(10%);
 }
 
 .triangle .ghost-2 {
@@ -45,8 +44,7 @@ a {
 }
 
 .triangle:hover .ghost-2 {
-  transform: translateX(20%);
-  opacity: 0.3;
+  transform: translateX(15%) translateY(-10%);
 }
 
 .triangle .stop-color-1 {
