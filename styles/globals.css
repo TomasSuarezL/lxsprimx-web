@@ -33,7 +33,7 @@ a {
 }
 
 .triangle .ghost-1 {
-  transition: all 0.24s ease-in-out;
+  transition: all 0.24s 0.5s ease-in-out;
 }
 
 .triangle-container:hover .ghost-1 {
@@ -41,7 +41,7 @@ a {
 }
 
 .triangle .ghost-2 {
-  transition: all 0.24s ease-in-out;
+  transition: all 0.24s 0.5s ease-in-out;
 }
 
 .triangle-container:hover .ghost-2 {
@@ -49,10 +49,10 @@ a {
 }
 
 .triangle .stop-color-1 {
-  transition: all 0.24s ease-in-out;
+  transition: all 0.24s 0.25s ease-in-out;
 }
 .triangle .stop-color-2 {
-  transition: all 0.24s ease-in-out;
+  transition: all 0.24s 0.5s ease-in-out;
 }
 
 .triangle-container:hover .stop-color-1 {

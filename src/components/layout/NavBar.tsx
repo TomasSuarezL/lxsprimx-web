@@ -8,7 +8,7 @@ export const Navbar = (props: { transparent: boolean }) => {
         <ul className="flex flex-col lg:flex-row list-none w-full justify-around">
           <li className="flex items-center">
             <a
-              className="text-amber-400 hover:text-sky-400 px-3 py-4 py-2 flex items-center text-4xl uppercase font-bold"
+              className="text-amber-500 hover:text-sky-400 px-3 py-4 py-2 flex items-center text-4xl uppercase font-bold"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
             >
               Bix
@@ -16,7 +16,7 @@ export const Navbar = (props: { transparent: boolean }) => {
           </li>
           <li className="flex items-center">
             <a
-              className="text-amber-400 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
+              className="text-amber-500 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
             >
               Musicx
@@ -24,7 +24,7 @@ export const Navbar = (props: { transparent: boolean }) => {
           </li>
           <li className="flex items-center">
             <a
-              className="text-amber-400 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
+              className="text-amber-500 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
             >
               Videxs
@@ -32,7 +32,7 @@ export const Navbar = (props: { transparent: boolean }) => {
           </li>
           <li className="flex items-center">
             <a
-              className="text-amber-400 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
+              className="text-amber-500 hover:text-sky-400 px-3 py-4 lg:py-2 flex items-center text-4xl uppercase font-bold"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
             >
               Redxs
