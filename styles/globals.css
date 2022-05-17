@@ -19,11 +19,12 @@ a {
   box-sizing: border-box;
 }
 
-.triangle {
-  opacity: 0.95;
-  transition: all 0.24s ease-in-out;
+.triangle-container {
   cursor: pointer;
-  /* transform-origin: 400px 400px; */
+}
+
+.triangle {
+  transition: all 0.24s ease-in-out;
 }
 
 .triangle-container:hover .triangle {
@@ -35,7 +36,7 @@ a {
   transition: all 0.24s ease-in-out;
 }
 
-.triangle-containere:hover .ghost-1 {
+.triangle-container:hover .ghost-1 {
   transform: translateX(-15%) translateY(-10%);
 }
 

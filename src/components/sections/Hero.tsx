@@ -12,7 +12,7 @@ export const Hero = () => {
     >
       {/* <div className="container relative mx-auto"> */}
       {/* <div className="items-center flex flex-wrap"> */}
-      <div className="triangle-container z-10 absolute -bottom-1/3 left-0 w-full h-[160%] px-4 ml-auto mr-auto text-center">
+      <div className="triangle-container z-10 absolute -bottom-1/3 left-0 w-full h-[150%] px-4 ml-auto mr-auto text-center">
         {/* <Image src={TriangleSVG} alt="next" layout="fill" /> */}
         <Triangle />
       </div>
