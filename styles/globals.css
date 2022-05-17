@@ -25,11 +25,11 @@ a {
 
 .triangle {
   transition: all 0.24s ease-in-out;
+  height: 85%;
 }
 
 .triangle-container:hover .triangle {
   transform: rotate(90deg);
-  opacity: 0.9;
 }
 
 .triangle .ghost-1 {

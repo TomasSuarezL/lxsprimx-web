@@ -63,13 +63,13 @@ export const Triangle = () => (
         className="ghost-1"
         points="481,146 227,654 735,654"
         filter="url(#nnneon-filter2)"
-        opacity="0.55"
+        opacity="0.75"
       ></polygon>
       <polygon
         className="ghost-2"
         points="319,146 65,654 573,654"
         filter="url(#nnneon-filter2)"
-        opacity="0.55"
+        opacity="0.75"
       ></polygon>
       <polygon points="400,146 146,654 654,654"></polygon>
     </g>
