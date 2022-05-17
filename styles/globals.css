@@ -26,7 +26,7 @@ a {
   /* transform-origin: 400px 400px; */
 }
 
-.triangle:hover {
+.triangle-container:hover .triangle {
   transform: rotate(90deg);
   opacity: 0.9;
 }
@@ -35,16 +35,16 @@ a {
   transition: all 0.24s ease-in-out;
 }
 
-.triangle:hover .ghost-1 {
-  transform: translateX(-15%) translateY(10%);
+.triangle-containere:hover .ghost-1 {
+  transform: translateX(-15%) translateY(-10%);
 }
 
 .triangle .ghost-2 {
   transition: all 0.24s ease-in-out;
 }
 
-.triangle:hover .ghost-2 {
-  transform: translateX(15%) translateY(-10%);
+.triangle-container:hover .ghost-2 {
+  transform: translateX(15%) translateY(10%);
 }
 
 .triangle .stop-color-1 {
@@ -54,10 +54,10 @@ a {
   transition: all 0.24s ease-in-out;
 }
 
-.triangle:hover .stop-color-1 {
+.triangle-container:hover .stop-color-1 {
   stop-color: hsl(46, 61%, 48%);
 }
-.triangle:hover .stop-color-2 {
+.triangle-container:hover .stop-color-2 {
   stop-color: hsl(206, 70%, 58%);
 }
 
