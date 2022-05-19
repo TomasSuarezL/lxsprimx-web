@@ -4,7 +4,7 @@ import { Navbar } from "./NavBar";
 export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main>
         <div
           className="relative bg-slate-900 overflow-hidden"
