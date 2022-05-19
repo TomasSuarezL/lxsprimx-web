@@ -3,33 +3,27 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export const ParticlesBackground = () => {
-  const particlesInit = async (main: any) => {
-    console.log(main);
-
+  const particlesInit = async (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
 
-  const particlesLoaded = async (container: any) => {
-    console.log(container);
-  };
   return (
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
       options={{
         fpsLimit: 60,
         particles: {
-          number: 10,
+          number: 12,
           color: ["#e09710", "#69bce0"],
           shape: {
             type: "square",
           },
           opacity: {
-            value: 0.3,
+            value: 0.25,
             random: false,
             animation: {
               enable: true,
@@ -39,7 +33,7 @@ export const ParticlesBackground = () => {
             },
           },
           size: {
-            value: 80,
+            value: 90,
             random: { enable: true, minimumValue: 40 },
             animation: {
               enable: false,
@@ -61,28 +55,7 @@ export const ParticlesBackground = () => {
             size: true,
           },
         },
-        interactivity: {
-          detectsOn: "canvas",
-          events: {
-            resize: true,
-          },
-        },
         detectRetina: true,
-        // emitters: {
-        //   direction: "top",
-        //   rate: {
-        //     quantity: 10,
-        //     delay: 0.2,
-        //   },
-        //   size: {
-        //     width: 100,
-        //     height: 10,
-        //   },
-        //   position: {
-        //     x: 50,
-        //     y: 100,
-        //   },
-        // },
       }}
     />
   );

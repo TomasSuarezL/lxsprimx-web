@@ -45,12 +45,13 @@ a {
 }
 
 .triangle-container:hover .ghost-2 {
-  transform: translateX(15%) translateY(10%);
+  transform: translateX(25%) translateY(10%);
 }
 
 .triangle .stop-color-1 {
   transition: all 0.24s 0.25s ease-in-out;
 }
+
 .triangle .stop-color-2 {
   transition: all 0.24s 0.5s ease-in-out;
 }
@@ -58,6 +59,7 @@ a {
 .triangle-container:hover .stop-color-1 {
   stop-color: hsl(46, 61%, 48%);
 }
+
 .triangle-container:hover .stop-color-2 {
   stop-color: hsl(206, 70%, 58%);
 }

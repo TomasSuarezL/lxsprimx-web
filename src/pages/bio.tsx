@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import type { NextPage } from "next";
+import { HomeNav } from "../components/layout/HomeNav";
 import { Layout } from "../components/layout/Layout";
-import { Home as HomeComponent } from "../components/sections/Hero";
+import { Bio as BioComponent } from "../components/sections/Bio";
 
-const Home: NextPage = () => {
+const Bio: NextPage = () => {
   return (
     <Layout>
+      <HomeNav />
       <motion.div
         initial="pageInitial"
         animate="pageAnimate"
@@ -19,11 +21,11 @@ const Home: NextPage = () => {
           },
         }}
       >
-        <HomeComponent />
+        <BioComponent />
       </motion.div>
     </Layout>
   );
 };
 
-export default Home;
+export default Bio;
 

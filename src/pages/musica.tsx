@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import type { NextPage } from "next";
+import { HomeNav } from "../components/layout/HomeNav";
 import { Layout } from "../components/layout/Layout";
-import { Home as HomeComponent } from "../components/sections/Hero";
+import { Musica as MusicaComponent } from "../components/sections/Musica";
 
-const Home: NextPage = () => {
+const Musica: NextPage = () => {
   return (
     <Layout>
+      <HomeNav />
       <motion.div
         initial="pageInitial"
         animate="pageAnimate"
@@ -19,11 +21,11 @@ const Home: NextPage = () => {
           },
         }}
       >
-        <HomeComponent />
+        <MusicaComponent />
       </motion.div>
     </Layout>
   );
 };
 
-export default Home;
+export default Musica;
 
