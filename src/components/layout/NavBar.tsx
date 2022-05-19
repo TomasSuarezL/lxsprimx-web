@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <a
                   className={
                     (router.pathname === l.href ? "text-sky-400" : "text-amber-500") +
-                    " hover:text-sky-400 px-3 py-4 flex items-center text-4xl uppercase font-bold transition-colors duration-300"
+                    " hover:text-sky-400 px-3 py-4 flex items-center text-l lg:text-4xl uppercase font-bold transition-colors duration-300"
                   }
                 >
                   {l.text}

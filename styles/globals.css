@@ -48,11 +48,11 @@ a {
   transform: translateX(25%) translateY(10%);
 }
 
-.triangle .stop-color-1 {
+.triangle-container .stop-color-1 {
   transition: all 0.24s 0.25s ease-in-out;
 }
 
-.triangle .stop-color-2 {
+.triangle-container .stop-color-2 {
   transition: all 0.24s 0.5s ease-in-out;
 }
 
@@ -62,5 +62,19 @@ a {
 
 .triangle-container:hover .stop-color-2 {
   stop-color: hsl(206, 70%, 58%);
+}
+
+.triangle-container:hover .background-container .stop-color-1 {
+  stop-color: hsl(160, 81%, 56%);
+}
+
+.triangle-container:hover .background-container .stop-color-2 {
+  stop-color: hsl(285, 73%, 63%);
+}
+
+.background-container svg {
+  height: auto;
+  min-width: 150vh;
+  min-height: 150vh;
 }
 

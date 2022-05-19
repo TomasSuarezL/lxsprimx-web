@@ -1,4 +1,3 @@
-import { ParticlesBackground } from "../../assets/Particles";
 import { Navbar } from "./NavBar";
 
 export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -12,7 +11,6 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             minHeight: "100vh",
           }}
         >
-          {/* <ParticlesBackground /> */}
           {children}
         </div>
       </main>
