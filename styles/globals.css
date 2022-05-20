@@ -57,7 +57,7 @@ a {
 }
 
 .triangle-container:hover .stop-color-1 {
-  stop-color: hsl(46, 61%, 48%);
+  stop-color: hsl(206, 70%, 58%);
 }
 
 .triangle-container:hover .stop-color-2 {
@@ -65,11 +65,11 @@ a {
 }
 
 .triangle-container:hover .background-container .stop-color-1 {
-  stop-color: hsl(160, 81%, 56%);
+  stop-color: hsla(160, 81%, 56%, 0.145);
 }
 
 .triangle-container:hover .background-container .stop-color-2 {
-  stop-color: hsl(285, 73%, 63%);
+  stop-color: hsla(285, 73%, 63%, 0.098);
 }
 
 .background-container svg {

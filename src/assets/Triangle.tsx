@@ -11,8 +11,13 @@ export const Triangle = () => (
   >
     <defs>
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="nnneon-grad">
-        <stop className="stop-color-1" stopColor="hsl(157, 100%, 54%)" stopOpacity="1" offset="0%"></stop>
-        <stop className="stop-color-2" stopColor="hsl(331, 87%, 61%)" stopOpacity="1" offset="100%"></stop>
+        <stop
+          className="stop-color-1"
+          stopColor="hsl(150, 7.142857142857142%, 5.490196078431373%)"
+          stopOpacity="1"
+          offset="0%"
+        ></stop>
+        <stop className="stop-color-2" stopColor="#000000" stopOpacity="1" offset="100%"></stop>
       </linearGradient>
       <filter
         id="nnneon-filter"

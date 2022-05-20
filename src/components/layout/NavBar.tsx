@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 
 const links = [
-  { text: "Bix", href: "/bio" },
   { text: "Musicx", href: "/musica" },
   { text: "Videxs", href: "/videos" },
   { text: "Redxs", href: "/redes" },
+  { text: "Bix", href: "/bio" },
 ];
 
 export const Navbar = () => {
@@ -18,10 +19,11 @@ export const Navbar = () => {
         <ul className="flex flex-col lg:flex-row list-none w-full justify-around">
           {links.map((l) => (
             <li key={l.href} className="flex items-center">
+              {/* <Image src="/Perfil Insta 1.png" height={100} width={100} objectFit="cover"></Image> */}
               <Link href={l.href}>
                 <a
                   className={
-                    (router.pathname === l.href ? "text-sky-400" : "text-amber-500") +
+                    (router.pathname === l.href ? "text-sky-400" : "text-gray-100") +
                     " hover:text-sky-400 px-3 py-4 flex items-center text-l lg:text-4xl uppercase font-bold transition-colors duration-300"
                   }
                 >

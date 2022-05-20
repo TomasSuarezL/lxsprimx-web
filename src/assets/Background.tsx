@@ -18,8 +18,13 @@ export const Background = () => {
           y2="100%"
           id="ffflux-gradient"
         >
-          <stop className="stop-color-1" stopColor="hsl(43, 100%, 72%)" stopOpacity="1" offset="0%"></stop>
-          <stop className="stop-color-2" stopColor="hsl(199, 89%, 46%)" stopOpacity="1" offset="100%"></stop>
+          <stop className="stop-color-1" stopColor="#ffd67038" stopOpacity="1" offset="0%"></stop>
+          <stop
+            className="stop-color-2"
+            stopColor="hsla(198.94736842105263, 88.93617021276596%, 46.07843137254902%, 0.096)"
+            stopOpacity="1"
+            offset="100%"
+          ></stop>
         </linearGradient>
         <filter
           id="ffflux-filter"
