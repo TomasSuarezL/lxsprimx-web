@@ -4,28 +4,28 @@
 
 @font-face {
   font-family: "Brice";
-  src: url("./fonts/BRICE-BLACK.otf") format("opentype");
+  src: url("../public/fonts/BRICE-BLACK.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Brice";
-  src: url("./fonts/BRICE-BLACKSEMIEXPANDED.otf") format("opentype");
+  src: url("../public/fonts/BRICE-BLACKSEMIEXPANDED.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Brice";
-  src: url("./fonts/BRICE-EXTRALIGHTSEMICONDENSED.otf") format("opentype");
+  src: url("../public/fonts/BRICE-EXTRALIGHTSEMICONDENSED.otf") format("opentype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Brice";
-  src: url("./fonts/BRICE-REGULARSEMICONDENSED.otf") format("opentype");
+  src: url("../public/fonts/BRICE-REGULARSEMICONDENSED.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
