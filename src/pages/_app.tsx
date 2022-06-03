@@ -1,5 +1,5 @@
 import "../../styles/globals.css";
-import "../../styles/player.css";
+import "../../styles/player.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 

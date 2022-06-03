@@ -1,0 +1,10 @@
+$primary: #f59e0b;
+$secondary: #0ea5e9;
+
+$rhap_theme-color: $secondary;
+$rhap_background-color: $primary;
+$rhap_bar-color: $secondary;
+$rhap_time-color: $secondary;
+
+@import "react-h5-audio-player/src/styles.scss";
+

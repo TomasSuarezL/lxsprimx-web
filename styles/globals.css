@@ -65,7 +65,7 @@ a {
 }
 
 .triangle-container:hover .ghost-1 {
-  transform: translateX(-15%) translateY(-10%);
+  transform: translateX(-5%) translateY(-5%);
 }
 
 .triangle .ghost-2 {
@@ -73,23 +73,25 @@ a {
 }
 
 .triangle-container:hover .ghost-2 {
-  transform: translateX(25%) translateY(10%);
+  transform: translateX(5%) translateY(5%);
 }
 
 .triangle-container .stop-color-1 {
+  stop-color: #0ea5e9;
   transition: all 0.24s 0.25s ease-in-out;
 }
 
 .triangle-container .stop-color-2 {
+  stop-color: #f59f0bc5;
   transition: all 0.24s 0.5s ease-in-out;
 }
 
 .triangle-container:hover .stop-color-1 {
-  stop-color: hsl(206, 70%, 58%);
+  stop-color: #f59f0bc5;
 }
 
 .triangle-container:hover .stop-color-2 {
-  stop-color: hsl(206, 70%, 58%);
+  stop-color: #0ea5e9;
 }
 
 .triangle-container:hover .background-container .stop-color-1 {

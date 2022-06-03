@@ -63,8 +63,8 @@ export const Triangle = () => (
       </filter>
     </defs>
     <g strokeWidth="32.5" stroke="url(#nnneon-grad)" fill="none">
-      <polygon points="400,146 146,654 654,654" filter="url(#nnneon-filter)"></polygon>
-      <polygon
+      <polygon points="400,146 146,654 654,654" filter="xurl(#nnneon-filter)"></polygon>
+      {/* <polygon
         className="ghost-1"
         points="481,146 227,654 735,654"
         filter="url(#nnneon-filter2)"
@@ -75,7 +75,7 @@ export const Triangle = () => (
         points="319,146 65,654 573,654"
         filter="url(#nnneon-filter2)"
         opacity="0.75"
-      ></polygon>
+      ></polygon> */}
       <polygon points="400,146 146,654 654,654"></polygon>
     </g>
   </svg>
