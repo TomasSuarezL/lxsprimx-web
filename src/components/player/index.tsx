@@ -1,6 +1,13 @@
 import { useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 
+const audios: Record<string, string> = {
+  Daleva:
+    "https://firebasestorage.googleapis.com/v0/b/elyulian-web.appspot.com/o/Daaaleeee%20Tucutucutucutuctu%20VAAA.ogg?alt=media&token=1f30db84-343d-459c-af4c-95525ec728d9",
+  Payaso:
+    "https://firebasestorage.googleapis.com/v0/b/elyulian-web.appspot.com/o/Que%20Te%20Pensas%20Que%20Soy%20Payaso%20De%20Circo%20De%20Rodeo.ogg?alt=media&token=c65e8979-a2dd-4b0a-b6d5-123ca7f714c8",
+};
+
 export const Player = () => {
   const [audio, setAudio] = useState(" - ");
 
@@ -11,15 +18,15 @@ export const Player = () => {
         {[1, 2, "Payaso", 4, 5, 6, 7, "Daleva", 9, 10, 11, 12, 13, 14, 15, 16].map((m, idx) => (
           <button
             onClick={(e) => setAudio(m.toString())}
-            className="text-sky-500 text-left flex-1 w-full text-2xl bg-amber-500 p-4 hover:bg-amber-600 cursor-pointer font-semibold"
-            key={m}
+            className="text-sky-500 text-left flex-1 w-full text-2xl my-2 bg-amber-500 p-4 hover:bg-amber-600 cursor-pointer font-semibold"
+            key={idx}
           >
             {idx + 1} - {m.toString().length > 3 ? m : "Falopa"}
           </button>
         ))}
       </div>
       <div className="max-w-4xl w-full font-semibold">
-        <AudioPlayer src={`/audio/${audio}.ogg`} onPlay={(e) => console.log("onPlay")} />
+        <AudioPlayer src={audios[audio]} onPlay={(e) => console.log("onPlay")} />
       </div>
     </div>
   );
