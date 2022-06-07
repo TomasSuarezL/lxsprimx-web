@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import type { NextPage } from "next";
 import { HomeNav } from "../components/layout/HomeNav";
 import { Layout } from "../components/layout/Layout";
-import { Musica as MusicaComponent } from "../components/sections/Musica";
+import { Player as PlayerComponent } from "../components/player";
 
 const Musica: NextPage = () => {
   return (
@@ -17,11 +17,11 @@ const Musica: NextPage = () => {
           },
           pageAnimate: {
             opacity: 1,
-            transition: { duration: 0.5 },
+            transition: { duration: 1 },
           },
         }}
       >
-        <MusicaComponent />
+        <PlayerComponent />
       </motion.div>
     </Layout>
   );
