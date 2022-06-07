@@ -242,12 +242,32 @@ export const ParticlesBackground = () => {
           },
           shape: {
             options: {
-              images: {
-                height: 400,
-                replaceColor: false,
-                src: "/5B.png",
-                width: 600,
-              },
+              images: [
+                {
+                  height: 400,
+                  replaceColor: false,
+                  src: "/5B.png",
+                  width: 600,
+                },
+                {
+                  height: 400,
+                  replaceColor: false,
+                  src: "/8B.png",
+                  width: 600,
+                },
+                {
+                  height: 400,
+                  replaceColor: false,
+                  src: "/Isologo 1.png",
+                  width: 400,
+                },
+                {
+                  height: 400,
+                  replaceColor: false,
+                  src: "/Perfil Insta 1.png",
+                  width: 400,
+                },
+              ],
             },
             type: "images",
           },
