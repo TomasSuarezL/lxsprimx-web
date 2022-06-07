@@ -138,7 +138,7 @@ export const ParticlesBackground = () => {
             },
             random: false,
             size: false,
-            speed: 2,
+            speed: 0.07,
             spin: {
               acceleration: 0,
               enable: false,
@@ -161,7 +161,7 @@ export const ParticlesBackground = () => {
               factor: 1000,
             },
             limit: 0,
-            value: 80,
+            value: 14,
           },
           opacity: {
             random: {
@@ -169,17 +169,8 @@ export const ParticlesBackground = () => {
               minimumValue: 0.1,
             },
             value: {
-              min: 0.1,
-              max: 0.4,
-            },
-            animation: {
-              count: 0,
-              enable: true,
-              speed: 0.1,
-              sync: false,
-              destroy: "none",
-              startValue: "random",
-              minimumValue: 0.1,
+              min: 0.45,
+              max: 0.55,
             },
           },
           orbit: {
