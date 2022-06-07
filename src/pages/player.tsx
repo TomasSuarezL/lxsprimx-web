@@ -17,7 +17,7 @@ const Player: NextPage = () => {
           },
           pageAnimate: {
             opacity: 1,
-            transition: { duration: 1.5 },
+            transition: { duration: 1 },
           },
         }}
       >
