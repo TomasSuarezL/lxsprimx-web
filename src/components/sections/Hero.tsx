@@ -13,9 +13,9 @@ export const Home = () => {
           </div>
           {/* <Triangle /> */}
           <div className="absolute flex items-center flex-col justify-start top-32 2xl:top-40 left-0 w-full h-3/4 px-4 ml-auto mr-auto text-center">
-            <Image src="/Perfil Insta 1.png" height={"200"} width="200" objectFit="cover"></Image>
-            <h1 className="text-amber-500 md:text-6xl text-4xl 2xl:text-8xl font-black">LXS</h1>
-            <h1 className="text-amber-500 md:text-6xl text-4xl 2xl:text-8xl font-black">PRIMXS</h1>
+            <Image src="/5B.png" height={"500"} width="700" objectFit="cover"></Image>
+            {/* <h1 className="text-amber-500 md:text-6xl text-4xl 2xl:text-8xl font-black">LXS</h1>
+            <h1 className="text-amber-500 md:text-6xl text-4xl 2xl:text-8xl font-black">PRIMXS</h1> */}
           </div>
         </div>
       </Link>
