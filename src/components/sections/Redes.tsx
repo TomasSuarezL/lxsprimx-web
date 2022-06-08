@@ -1,7 +1,23 @@
+import { EmailIcon } from "../../assets/Email";
+import { InstagramIcon } from "../../assets/Instagram";
+
 export const Redes = () => {
   return (
-    <div className="absolute w-full h-full flex items-center justify-center">
-      <h1 className="text-sky-400 text-6xl lg:text-9xl font-black">Redxs</h1>
+    <div className="absolute w-full h-full p-32 flex-col lg:flex-row flex items-center lg:justify-center">
+      <a
+        className="redes-link flex flex-col items-center justify-center m-3 lg:p-4 lg:m-8 text-amber-500 text-lg lg:text-2xl font-black"
+        href="https://www.instagram.com/lxs__primxs/ "
+      >
+        <InstagramIcon />
+        @lxs__primxs
+      </a>
+      <a
+        className="redes-link flex flex-col items-center justify-center m-3 lg:p-4 lg:m-8 text-amber-500 text-lg lg:text-2xl font-black"
+        href="mailto:lxsprimxs909@gmail.com"
+      >
+        <EmailIcon />
+        <span>lxsprimxs909@gmail.com</span>
+      </a>
     </div>
   );
 };

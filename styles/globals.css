@@ -102,9 +102,28 @@ a {
   stop-color: hsla(285, 73%, 63%, 0.098);
 }
 
-.background-container svg {
-  height: auto;
-  min-width: 150vh;
-  min-height: 150vh;
+.redes-link {
+  transition: all 0.3s ease-in-out;
+  width: 30rem;
+  color: theme("colors.sky.500");
+  background-color: theme("colors.amber.500");
+}
+
+.redes-link:hover {
+  background-color: theme("colors.sky.500");
+  color: theme("colors.amber.500");
+}
+
+.redes-link:hover svg {
+  fill: theme("colors.amber.500");
+}
+
+.redes-link svg {
+  fill: theme("colors.sky.500");
+
+  max-width: 7rem;
+  flex: 1;
+  margin: 1rem;
+  transition: all 0.3s ease-in-out;
 }
 

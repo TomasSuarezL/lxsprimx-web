@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <nav className="bottom-0 absolute z-50 w-full shadow-l flex flex-wrap items-center justify-between px-2 py-6 ">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <ul className="flex flex-col lg:flex-row list-none w-full justify-around">
+        <ul className="flex flex-wrap lg:flex-row list-none w-full justify-around">
           {links.map((l) => (
             <li key={l.href} className="flex items-center">
               {/* <Image src="/Perfil Insta 1.png" height={100} width={100} objectFit="cover"></Image> */}
