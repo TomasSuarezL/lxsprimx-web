@@ -111,12 +111,6 @@ export const ParticlesBackground = () => {
             direction: "none",
             drift: 0,
             enable: true,
-            gravity: {
-              acceleration: 9.81,
-              enable: false,
-              inverse: false,
-              maxSpeed: 50,
-            },
             path: {
               clamp: true,
               delay: {
@@ -169,8 +163,8 @@ export const ParticlesBackground = () => {
               minimumValue: 0.1,
             },
             value: {
-              min: 0.45,
-              max: 0.55,
+              min: 0.55,
+              max: 0.65,
             },
           },
           orbit: {
@@ -309,7 +303,7 @@ export const ParticlesBackground = () => {
               enable: false,
               minimumValue: 1,
             },
-            value: 160,
+            value: 130,
             animation: {
               count: 0,
               enable: false,

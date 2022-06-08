@@ -6,7 +6,7 @@ const links = [
   { text: "Musicx", href: "/musica" },
   { text: "Videxs", href: "/videos" },
   { text: "Redxs", href: "/redes" },
-  { text: "Bix", href: "/bio" },
+  // { text: "Bix", href: "/bio" },
 ];
 
 export const Navbar = () => {
@@ -22,7 +22,7 @@ export const Navbar = () => {
               <Link href={l.href}>
                 <a
                   className={
-                    (router.pathname === l.href ? "text-sky-400" : "text-amber-500") +
+                    (router.pathname === l.href ? "border-amber-500 border-b-4 text-amber-500" : "text-amber-500") +
                     " hover:text-sky-400 px-3 py-4 flex items-center text-l lg:text-4xl uppercase font-bold transition-colors duration-300"
                   }
                 >
