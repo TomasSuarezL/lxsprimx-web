@@ -104,7 +104,7 @@ a {
 
 .redes-link {
   transition: all 0.3s ease-in-out;
-  width: 30rem;
+  max-width: 30rem;
   color: theme("colors.black");
   background-color: theme("colors.amber.500");
 }
