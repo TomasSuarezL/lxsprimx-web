@@ -27,7 +27,7 @@ export const Player = () => {
           </button>
         ))}
       </div>
-      <div className="max-w-4xl w-full font-semibold">
+      <div className="max-w-4xl w-full font-semibold xl:mt-4">
         <AudioPlayer src={audios[audio]} onPlay={(e) => console.log("onPlay")} />
       </div>
     </div>

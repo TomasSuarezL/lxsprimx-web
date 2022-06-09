@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         sans: ["Brice", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        amber: { 500: "#feb704" },
+      },
     },
   },
   plugins: [],
