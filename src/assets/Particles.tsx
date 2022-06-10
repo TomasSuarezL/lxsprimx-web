@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-export const ParticlesBackground = () => {
+export const ParticlesElements = () => {
   const particlesInit = async (main: any) => {
     console.log(main);
 
@@ -21,7 +21,7 @@ export const ParticlesBackground = () => {
           position: "50% 50%",
           repeat: "no-repeat",
           size: "cover",
-          opacity: 1,
+          opacity: 0,
         },
         backgroundMask: {
           composite: "destination-out",
@@ -29,7 +29,7 @@ export const ParticlesBackground = () => {
             color: {
               value: "#fff",
             },
-            opacity: 1,
+            opacity: 0,
           },
           enable: false,
         },
@@ -224,7 +224,7 @@ export const ParticlesBackground = () => {
               enable: false,
               minimumValue: 1,
             },
-            value: 130,
+            value: 120,
             animation: {
               count: 0,
               enable: false,
@@ -242,4 +242,3 @@ export const ParticlesBackground = () => {
     />
   );
 };
-
