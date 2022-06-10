@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ParticlesBackground, ParticlesElements } from "../../assets/Particles";
+import { ParticlesElements } from "../../assets/Particles";
 import { Triangle } from "../../assets/Triangle";
 
 export const Home = () => {
