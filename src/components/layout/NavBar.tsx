@@ -18,11 +18,12 @@ export const Navbar = () => {
         <ul className="flex flex-wrap lg:flex-row list-none w-full justify-around">
           {links.map((l) => (
             <li key={l.href} className="flex items-center">
-              {/* <Image src="/Perfil Insta 1.png" height={100} width={100} objectFit="cover"></Image> */}
               <Link href={l.href}>
                 <a
                   className={
-                    (router.pathname === l.href ? "border-amber-500 border-b-4 text-amber-500" : "text-amber-500") +
+                    ("/" + router.pathname.split("/")[1] === l.href
+                      ? "border-amber-500 border-b-4 text-amber-500"
+                      : "text-amber-500") +
                     " hover:text-sky-400 px-3 py-2 my-2 flex items-center text-l lg:text-4xl uppercase font-bold transition-colors duration-300"
                   }
                 >

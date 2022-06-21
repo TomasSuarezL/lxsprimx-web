@@ -6,7 +6,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <Navbar />
       <main>
         <div
-          className="relative bg-slate-900 overflow-hidden"
+          className="relative bg-black overflow-hidden"
           style={{
             minHeight: "100vh",
           }}
