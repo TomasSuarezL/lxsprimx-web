@@ -14,7 +14,7 @@ export const Player = () => {
   const [audio, setAudio] = useState(" - ");
 
   return (
-    <div className="absolute bg-black w-full h-full flex flex-col items-center justify-center pt-36 pb-40">
+    <div className="absolute bg-black w-full h-full flex flex-col items-center justify-start pt-8 pb-40">
       <h1 className="text-xl lg:text-4xl text-amber-500 font-extrabold">{audio}</h1>
       <div className="overflow-auto flex flex-col w-full max-w-4xl m-4">
         {["Corashe REMIX", "Dance Crip Coolo REMIX", "My Humps REMIX"].map((m, idx) => (

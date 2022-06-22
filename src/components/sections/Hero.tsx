@@ -6,7 +6,7 @@ import { Triangle } from "../../assets/Triangle";
 export const Home = () => {
   return (
     <>
-      <Link href="/musica">
+      <Link href="/musica/tracks">
         <div className="triangle-container z-10 absolute -bottom-1/4 left-0 w-full h-[130%] ml-auto mr-auto text-center">
           <div className="background-container absolute w-full h-full -z-10">
             <ParticlesElements />
