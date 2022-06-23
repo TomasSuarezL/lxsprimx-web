@@ -26,7 +26,7 @@ const SetsPage = () => {
       >
         <MusicaNav />
         <div className="flex flex-col w-full h-[65vh] overflow-auto items-center p-4">
-          <ul className="flex flex-col lg:flex-row">
+          <ul className="flex flex-col lg:flex-row items-center justify-center w-full">
             {/* <li className="relative m-2 bg-amber-500 hover:bg-amber-600 flex flex-column items-end w-60 sm:w-64 lg:w-72 h-48 sm:h-56 lg:h-64 transition-colors duration-300 cursor-pointer">
               <a className="w-full" href="https://soundcloud.com/lxsprimxs/lxs-primxs-en-california-klub-16-6">
                 <Image src="/5.png" layout="fill" objectFit="cover"></Image>
@@ -36,8 +36,12 @@ const SetsPage = () => {
                 </h2>
               </a>
             </li> */}
-            <li className="relative m-2 bg-amber-500 hover:bg-amber-600 flex flex-column items-end  transition-colors duration-300 cursor-pointer">
-              <ReactPlayer url="https://soundcloud.com/lxsprimxs/lxs-primxs-en-california-klub-16-6" />
+            <li className="relative m-2 bg-amber-500 hover:bg-amber-600 flex flex-column items-end w-full max-w-xl h-40 transition-colors duration-300 cursor-pointer">
+              <ReactPlayer
+                width="100%"
+                height="100%"
+                url="https://soundcloud.com/lxsprimxs/lxs-primxs-en-california-klub-16-6"
+              />
             </li>
 
             {/* <li className="relative p-4 m-2 bg-amber-500 hover:bg-amber-600 flex flex-column items-end w-40 lg:w-64 h-40 lg:h-64 transition-colors cursor-pointer">
