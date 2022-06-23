@@ -104,13 +104,13 @@ a {
 
 .redes-link {
   transition: all 0.3s ease-in-out;
-  max-width: 30rem;
+  max-width: 22rem;
   color: theme("colors.black");
   background-color: theme("colors.amber.500");
 }
 
 .redes-link:hover {
-  background-color: theme("colors.black");
+  background-color: theme("colors.amber.700");
   color: theme("colors.amber.500");
 }
 
@@ -121,7 +121,7 @@ a {
 .redes-link svg {
   fill: theme("colors.black");
 
-  max-width: 7rem;
+  max-width: 5rem;
   flex: 1;
   margin: 1rem;
   transition: all 0.3s ease-in-out;
