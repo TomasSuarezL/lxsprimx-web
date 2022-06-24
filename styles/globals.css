@@ -47,59 +47,8 @@ a {
   box-sizing: border-box;
 }
 
-.triangle-container {
+.hero-container {
   cursor: pointer;
-}
-
-.triangle {
-  transition: all 0.24s ease-in-out;
-  height: 85%;
-}
-
-.triangle-container:hover .triangle {
-  transform: rotate(90deg);
-}
-
-.triangle .ghost-1 {
-  transition: all 0.24s 0.5s ease-in-out;
-}
-
-.triangle-container:hover .ghost-1 {
-  transform: translateX(-5%) translateY(-5%);
-}
-
-.triangle .ghost-2 {
-  transition: all 0.24s 0.5s ease-in-out;
-}
-
-.triangle-container:hover .ghost-2 {
-  transform: translateX(5%) translateY(5%);
-}
-
-.triangle-container .stop-color-1 {
-  stop-color: #0ea5e9;
-  transition: all 0.24s 0.25s ease-in-out;
-}
-
-.triangle-container .stop-color-2 {
-  stop-color: #f59f0bc5;
-  transition: all 0.24s 0.5s ease-in-out;
-}
-
-.triangle-container:hover .stop-color-1 {
-  stop-color: #f59f0bc5;
-}
-
-.triangle-container:hover .stop-color-2 {
-  stop-color: #0ea5e9;
-}
-
-.triangle-container:hover .background-container .stop-color-1 {
-  stop-color: hsla(160, 81%, 56%, 0.145);
-}
-
-.triangle-container:hover .background-container .stop-color-2 {
-  stop-color: hsla(285, 73%, 63%, 0.098);
 }
 
 .redes-link {
@@ -120,7 +69,6 @@ a {
 
 .redes-link svg {
   fill: theme("colors.black");
-
   max-width: 5rem;
   flex: 1;
   margin: 1rem;
