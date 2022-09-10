@@ -1,6 +1,7 @@
 import { EmailIcon } from "../../assets/Email";
 import { InstagramIcon } from "../../assets/Instagram";
 import { SoundcloudIcon } from "../../assets/Soundcloud";
+import { SpotifyIcon } from "../../assets/Spotify";
 import { YouTubeIcon } from "../../assets/Youtube";
 
 export const Redes = () => {
@@ -34,7 +35,13 @@ export const Redes = () => {
         <SoundcloudIcon />
         <span>lxsprimxs</span>
       </a>
+      <a
+        className="redes-link w-full flex flex-col items-center justify-center m-3 lg:p-4 lg:m-8 text-amber-500  text-sm sm:text-lg  font-black"
+        href="https://open.spotify.com/artist/7BtRoLjGzdFWg59cK8yIkB"
+      >
+        <SpotifyIcon />
+        <span>Lxs Primxs</span>
+      </a>
     </div>
   );
 };
-
